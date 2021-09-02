@@ -14,6 +14,10 @@
 
 ## changelog
 
+`v2.0.3-hotfix`
+
+- 给 `selection-mode.png` 添加一层渐变，加强 ingame search 文字对比度
+
 `v2.0.3`
 
 - 更换光标（仿 XE 皮光标重绘）
