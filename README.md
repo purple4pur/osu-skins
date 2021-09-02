@@ -14,6 +14,13 @@
 
 ## changelog
 
+`v2.0.3`
+
+- 更换光标（仿 XE 皮光标重绘）
+- 降低 hitcircle 透明度
+- 调暗滑条边缘颜色
+- 小改 `selection-mode.png`，现在能看到 ingame search 结果条数了（xxx matches found!）
+
 `v2.0.2`
 
 - 更换光标
