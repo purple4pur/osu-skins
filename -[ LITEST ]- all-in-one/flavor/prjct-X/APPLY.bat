@@ -13,7 +13,5 @@ copy hitcircleoverlay@2x.png ..\..\hitcircleoverlay@2x.png
 copy hitcircleselect.png     ..\..\hitcircleselect.png
 copy hitcircleselect@2x.png  ..\..\hitcircleselect@2x.png
 
-type skin.ini.part0        >  ..\..\skin.ini
-type ..\etc\skin.ini.part1 >> ..\..\skin.ini
-
+call ..\etc\concat-skin-ini.bat
 pause
