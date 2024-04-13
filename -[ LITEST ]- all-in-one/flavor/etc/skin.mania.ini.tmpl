@@ -1,0 +1,43 @@
+{{ defineDatasource "config" "config.mania.json" -}}
+{{ "" }}
+// The following part is auto-generatedn.
+// See flavor/etc/config.mania.json for more details.
+{{ range $unused0, $entry := (ds "config").entries -}}
+{{   $width := $entry.width -}}
+{{   $line_width := $entry.line_width -}}
+{{   $spacing := $entry.spacing -}}
+{{   $total := 0 -}}
+{{   range $width }}{{ $total = add $total . }}{{ end -}}
+{{   range $line_width }}{{ $total = add $total . }}{{ end -}}
+{{   range $spacing }}{{ $total = add $total . }}{{ end -}}
+{{   $start := sub (ds "config").total_width_16_9 $total -}}
+{{   $start = mul $start (ds "config").justify | math.Floor -}}
+{{   "" }}
+[Mania]
+Keys: {{ $entry.key }}
+ColumnStart: {{ $start }}
+ColumnWidth: {{ join $width "," }}
+ColumnLineWidth: {{ join $line_width "," }}
+ColumnSpacing: {{ join $spacing "," }}
+
+HitPosition: {{ (ds "config").hit_position }}
+ScorePosition: {{ (ds "config").score_position }}
+ComboPosition: {{ (ds "config").combo_position }}
+
+JudgementLine: 0
+KeysUnderNotes: 1
+
+// keys
+{{   range $i, $e := $entry.notes -}}
+KeyImage{{ $i }}: mania/keys/k
+KeyImage{{ $i }}D: mania/keys/kd
+{{   end -}}
+{{   "" }}
+// notes
+{{   range $i, $e := $entry.notes -}}
+NoteImage{{ $i }}: mania/notes/{{ $e }}
+NoteImage{{ $i }}H: mania/notes/{{ $e }}
+NoteImage{{ $i }}L: mania/notes/noteL-{{ $e }}
+NoteImage{{ $i }}T: mania/notes/noteT-{{ $e }}
+{{   end -}}
+{{ end -}}
