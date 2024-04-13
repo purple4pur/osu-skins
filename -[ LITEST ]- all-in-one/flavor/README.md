@@ -17,5 +17,5 @@ differenty skins in only one skin, without releasing multiple copies.
 Please back them up if there's any manual modification.**
 
 1. Enter the target flavor folder
-2. Double-click APPLY.bat (or GEN_AND_APPLY.bat, see [this](./etc/README.md) )
+2. Double-click `APPLY.bat` (or `GEN_AND_APPLY.bat`, see [this](./etc/README.md) )
 3. Reload the skin in osu!: `<Ctrl+Shift+Alt+s>`

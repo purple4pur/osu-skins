@@ -1,4 +1,4 @@
-# Mania ini Generator
+# Mania Ini Generator
 
 A template to generate the *mania part* of `skin.ini` from `config.mania.json` .
 
