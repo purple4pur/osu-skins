@@ -1,6 +1,6 @@
 {
     "_description": "This file is used in skin.mania.ini.tmpl to generate the mania part of skin.ini",
-    "_usage": "gomplate -f skin.mania.ini.tmpl -o skin.mania.ini",
+    "_usage": "Run generate-skin-mania-ini.bat",
 
     "total_width_16_9": 853,
     "_total_width_16_9_comment": "A constant. Know this value in practice.",
@@ -18,28 +18,28 @@
             "width": [44, 44, 44, 44],
             "line_width": [0, 0, 0, 0, 0],
             "spacing": [10, 10, 10],
-            "notes": ["white", "white", "blue", "blue"]
+            "colors": ["white", "white", "blue", "blue"]
         },
         {
             "key": 5,
             "width": [44, 44, 44, 44, 44],
             "line_width": [0, 0, 0, 0, 0, 0],
             "spacing": [6, 6, 6, 6],
-            "notes": ["white", "white", "yellow", "blue", "blue"]
+            "colors": ["white", "white", "yellow", "blue", "blue"]
         },
         {
             "key": 6,
             "width": [40, 40, 40, 40, 40, 40],
             "line_width": [0, 0, 0, 0, 0, 0, 0],
             "spacing": [6, 6, 6, 6, 6],
-            "notes": ["white", "white", "white", "blue", "blue", "blue"]
+            "colors": ["white", "white", "white", "blue", "blue", "blue"]
         },
         {
             "key": 7,
             "width": [38, 38, 38, 38, 38, 38, 38],
             "line_width": [0, 0, 0, 0, 0, 0, 0, 0],
             "spacing": [5, 5, 5, 5, 5, 5],
-            "notes": ["white", "white", "white", "yellow", "blue", "blue", "blue"]
+            "colors": ["white", "white", "white", "yellow", "blue", "blue", "blue"]
         }
     ]
 }

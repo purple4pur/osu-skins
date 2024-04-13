@@ -1,7 +1,5 @@
 # Flavor
 
-## Overview
-
 *Flavor* is a feature that allows you to apply different osu!std elements from
 differenty skins in only one skin, without releasing multiple copies.
 
@@ -18,6 +16,6 @@ differenty skins in only one skin, without releasing multiple copies.
 **The following instructions will OVERWRITE corresponding files and skin.ini.
 Please back them up if there's any manual modification.**
 
-1. Enter any one skin folder
-2. Double-click APPLY.bat (or GEN_AND_APPLY.bat)
-3. Reload the skin in osu!: ```<Ctrl+Shift+Alt+s>```
+1. Enter the target flavor folder
+2. Double-click APPLY.bat (or GEN_AND_APPLY.bat, see [this](./etc/README.md) )
+3. Reload the skin in osu!: `<Ctrl+Shift+Alt+s>`

@@ -28,16 +28,16 @@ JudgementLine: 0
 KeysUnderNotes: 1
 
 // keys
-{{   range $i, $e := $entry.notes -}}
+{{   range $i, $color := $entry.colors -}}
 KeyImage{{ $i }}: mania/keys/k
 KeyImage{{ $i }}D: mania/keys/kd
 {{   end -}}
 {{   "" }}
 // notes
-{{   range $i, $e := $entry.notes -}}
-NoteImage{{ $i }}: mania/notes/{{ $e }}
-NoteImage{{ $i }}H: mania/notes/{{ $e }}
-NoteImage{{ $i }}L: mania/notes/noteL-{{ $e }}
-NoteImage{{ $i }}T: mania/notes/noteT-{{ $e }}
+{{   range $i, $color := $entry.colors -}}
+NoteImage{{ $i }}: mania/notes/{{ $color }}
+NoteImage{{ $i }}H: mania/notes/{{ $color }}
+NoteImage{{ $i }}L: mania/notes/noteL-{{ $color }}
+NoteImage{{ $i }}T: mania/notes/noteT-{{ $color }}
 {{   end -}}
 {{ end -}}
