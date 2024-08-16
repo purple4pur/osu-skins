@@ -4,6 +4,7 @@ if exist approachcircle@2x.png   del approachcircle@2x.png
 if exist cursor.png              del cursor.png
 if exist cursor@2x.png           del cursor@2x.png
 if exist cursortrail.png         del cursortrail.png
+if exist cursortrail@2x.png      del cursortrail@2x.png
 if exist hitcircle.png           del hitcircle.png
 if exist hitcircle@2x.png        del hitcircle@2x.png
 if exist hitcircleoverlay.png    del hitcircleoverlay.png
