@@ -12,34 +12,38 @@
     "justify": 0.5,
     "_justify_comment": "0 (leftmost) <--- 0.5 (centered) ---> 1.0 (rightmost)",
 
-    "entries": [
+    "keys": [
         {
             "key": 4,
-            "width": [44, 44, 44, 44],
+            "width": [26, 26, 26, 26],
             "line_width": [0, 0, 0, 0, 0],
             "spacing": [10, 10, 10],
-            "colors": ["white", "white", "blue", "blue"]
+            "colors": ["white", "white", "blue", "blue"],
+            "ln_color": "colored"
         },
         {
             "key": 5,
-            "width": [44, 44, 44, 44, 44],
+            "width": [26, 26, 26, 26, 26],
             "line_width": [0, 0, 0, 0, 0, 0],
             "spacing": [6, 6, 6, 6],
-            "colors": ["white", "white", "yellow", "blue", "blue"]
+            "colors": ["white", "white", "yellow", "blue", "blue"],
+            "ln_color": "colored"
         },
         {
             "key": 6,
-            "width": [40, 40, 40, 40, 40, 40],
+            "width": [24, 24, 24, 24, 24, 24],
             "line_width": [0, 0, 0, 0, 0, 0, 0],
             "spacing": [6, 6, 6, 6, 6],
-            "colors": ["white", "white", "white", "blue", "blue", "blue"]
+            "colors": ["white", "white", "white", "blue", "blue", "blue"],
+            "ln_color": "none"
         },
         {
             "key": 7,
-            "width": [38, 38, 38, 38, 38, 38, 38],
+            "width": [24, 24, 24, 24, 24, 24, 24],
             "line_width": [0, 0, 0, 0, 0, 0, 0, 0],
             "spacing": [5, 5, 5, 5, 5, 5],
-            "colors": ["white", "white", "white", "yellow", "blue", "blue", "blue"]
+            "colors": ["white", "white", "white", "yellow", "blue", "blue", "blue"],
+            "ln_color": "none"
         }
     ]
 }

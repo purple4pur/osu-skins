@@ -1,8 +1,8 @@
 {{ defineDatasource "config" "config.mania.json" -}}
 {{ "" }}
-// The following part is auto-generatedn.
+// The following part is auto-generated.
 // See flavor/etc/config.mania.json for more details.
-{{ range $unused0, $entry := (ds "config").entries -}}
+{{ range $unused0, $entry := (ds "config").keys -}}
 {{   $width := $entry.width -}}
 {{   $line_width := $entry.line_width -}}
 {{   $spacing := $entry.spacing -}}
@@ -37,7 +37,7 @@ KeyImage{{ $i }}D: mania/keys/kd
 {{   range $i, $color := $entry.colors -}}
 NoteImage{{ $i }}: mania/notes/{{ $color }}
 NoteImage{{ $i }}H: mania/notes/{{ $color }}
-NoteImage{{ $i }}L: mania/notes/noteL-{{ $color }}
-NoteImage{{ $i }}T: mania/notes/noteT-{{ $color }}
+NoteImage{{ $i }}L: mania/notes/noteL{{ if eq $entry.ln_color "colored" }}-{{ $color }}{{ end }}
+NoteImage{{ $i }}T: mania/notes/noteT{{ if eq $entry.ln_color "colored" }}-{{ $color }}{{ end }}
 {{   end -}}
 {{ end -}}
