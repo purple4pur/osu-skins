@@ -35,8 +35,8 @@ KeyImage{{ $i }}D: mania/keys/kd
 {{   "" }}
 // notes
 {{   range $i, $color := $entry.colors -}}
-NoteImage{{ $i }}: mania/notes/{{ $color }}
-NoteImage{{ $i }}H: mania/notes/{{ $color }}
+NoteImage{{ $i }}: mania/notes/note-{{ $color }}
+NoteImage{{ $i }}H: mania/notes/note-{{ $color }}
 NoteImage{{ $i }}L: mania/notes/noteL{{ if eq $entry.ln_color "colored" }}-{{ $color }}{{ end }}
 NoteImage{{ $i }}T: mania/notes/noteT{{ if eq $entry.ln_color "colored" }}-{{ $color }}{{ end }}
 {{   end -}}
