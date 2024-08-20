@@ -19,7 +19,8 @@
             "line_width": [0, 0, 0, 0, 0],
             "spacing": [10, 10, 10],
             "colors": ["white", "white", "blue", "blue"],
-            "ln_color": "colored"
+            "ln_head_color": "colored",
+            "ln_body_color": "colored"
         },
         {
             "key": 5,
@@ -27,7 +28,8 @@
             "line_width": [0, 0, 0, 0, 0, 0],
             "spacing": [6, 6, 6, 6],
             "colors": ["white", "white", "yellow", "blue", "blue"],
-            "ln_color": "colored"
+            "ln_head_color": "colored",
+            "ln_body_color": "none"
         },
         {
             "key": 6,
@@ -35,7 +37,8 @@
             "line_width": [0, 0, 0, 0, 0, 0, 0],
             "spacing": [6, 6, 6, 6, 6],
             "colors": ["white", "white", "white", "blue", "blue", "blue"],
-            "ln_color": "none"
+            "ln_head_color": "colored",
+            "ln_body_color": "none"
         },
         {
             "key": 7,
@@ -43,7 +46,8 @@
             "line_width": [0, 0, 0, 0, 0, 0, 0, 0],
             "spacing": [5, 5, 5, 5, 5, 5],
             "colors": ["white", "white", "white", "yellow", "blue", "blue", "blue"],
-            "ln_color": "none"
+            "ln_head_color": "colored",
+            "ln_body_color": "none"
         }
     ]
 }
