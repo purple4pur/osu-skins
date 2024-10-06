@@ -4,7 +4,7 @@
 
 简洁。轻量。美观。性能。强兼容。
 
-下载皮肤请至 [Release](https://github.com/purple4pur/osu-skins/releases)。
+下载皮肤请至 [Release](https://github.com/purple4pur/osu-skins/releases) 。
 
 ## Features
 
