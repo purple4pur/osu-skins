@@ -1,7 +1,5 @@
-{{ defineDatasource "config" "config.mania.json" -}}
+{{ defineDatasource "config" "config.json" -}}
 {{ "" }}
-// The following part is auto-generated.
-// See flavor/etc/config.mania.json for more details.
 {{ range $unused0, $entry := (ds "config").keys -}}
 {{   $width := $entry.width -}}
 {{   $line_width := $entry.line_width -}}

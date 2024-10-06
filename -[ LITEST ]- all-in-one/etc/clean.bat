@@ -1,4 +1,6 @@
-pushd ..\..
+@echo off
+pushd ..
+echo *** clean osu!std sprites and skin.ini
 if exist approachcircle.png      del approachcircle.png
 if exist approachcircle@2x.png   del approachcircle@2x.png
 if exist cursor.png              del cursor.png

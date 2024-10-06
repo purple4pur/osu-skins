@@ -3,19 +3,11 @@
 *Flavor* is a feature that allows you to apply different osu!std elements from
 differenty skins in only one skin, without releasing multiple copies.
 
-## Directory Structure
-
-| Directory | Description                 |
-|-----------|-----------------------------|
-| etc       | Supporting and common files |
-| _Shield   | The '_Shield' skin flavor   |
-| prjct-X   | The 'prjct. X' skin flavor  |
-
 ## Usage
 
 **The following instructions will OVERWRITE corresponding files and skin.ini.
 Please back them up if there's any manual modification.**
 
-1. Enter the target flavor folder
-2. Double-click `APPLY.bat` (or `GEN_AND_APPLY.bat`, see [this](./etc/README.md) )
-3. Reload the skin in osu!: `<Ctrl+Shift+Alt+s>`
+1. enter one of the skin folders
+2. run `APPLY.bat`
+3. reload the skin in osu! using `<Ctrl+Shift+Alt+s>`

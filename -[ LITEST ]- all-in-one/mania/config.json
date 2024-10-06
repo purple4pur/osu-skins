@@ -1,30 +1,24 @@
 {
-    "_description": "This file is used in skin.mania.ini.tmpl to generate the mania part of skin.ini",
-    "_usage": "Run generate-skin-mania-ini.bat",
-
     "total_width_16_9": 853,
-    "_total_width_16_9_comment": "A constant. Know this value in practice.",
-
     "hit_position": 420,
     "score_position": 290,
     "combo_position": 250,
 
     "justify": 0.5,
-    "_justify_comment": "0 (leftmost) <--- 0.5 (centered) ---> 1.0 (rightmost)",
 
     "keys": [
         {
             "key": 4,
-            "width": [26, 26, 26, 26],
+            "width": [42, 42, 42, 42],
             "line_width": [0, 0, 0, 0, 0],
-            "spacing": [10, 10, 10],
+            "spacing": [6, 6, 6],
             "colors": ["white", "white", "blue", "blue"],
             "ln_head_color": "colored",
-            "ln_body_color": "colored"
+            "ln_body_color": "none"
         },
         {
             "key": 5,
-            "width": [26, 26, 26, 26, 26],
+            "width": [42, 42, 42, 42, 42],
             "line_width": [0, 0, 0, 0, 0, 0],
             "spacing": [6, 6, 6, 6],
             "colors": ["white", "white", "yellow", "blue", "blue"],
@@ -33,7 +27,7 @@
         },
         {
             "key": 6,
-            "width": [24, 24, 24, 24, 24, 24],
+            "width": [42, 42, 42, 42, 42, 42],
             "line_width": [0, 0, 0, 0, 0, 0, 0],
             "spacing": [6, 6, 6, 6, 6],
             "colors": ["white", "white", "white", "blue", "blue", "blue"],
@@ -42,9 +36,9 @@
         },
         {
             "key": 7,
-            "width": [24, 24, 24, 24, 24, 24, 24],
+            "width": [42, 42, 42, 42, 42, 42, 42],
             "line_width": [0, 0, 0, 0, 0, 0, 0, 0],
-            "spacing": [5, 5, 5, 5, 5, 5],
+            "spacing": [6, 6, 6, 6, 6, 6],
             "colors": ["white", "white", "white", "yellow", "blue", "blue", "blue"],
             "ln_head_color": "colored",
             "ln_body_color": "none"
