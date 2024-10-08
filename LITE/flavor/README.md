@@ -1,7 +1,7 @@
 # Flavor
 
 *Flavor* is a feature that allows you to apply different osu!std elements from
-differenty skins in only one skin, without releasing multiple copies.
+different skins in only one skin, without releasing multiple copies.
 
 ## Usage
 
