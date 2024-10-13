@@ -1,8 +1,8 @@
 {
     "total_width_16_9": 853,
-    "hit_position": 420,
-    "score_position": 290,
-    "combo_position": 250,
+    "hit_position": 454,
+    "score_position": 310,
+    "combo_position": 270,
 
     "justify": 0.5,
 
@@ -11,7 +11,7 @@
             "key": 4,
             "width": [42, 42, 42, 42],
             "line_width": [0, 0, 0, 0, 0],
-            "spacing": [6, 6, 6],
+            "spacing": [8, 8, 8],
             "colors": ["white", "white", "blue", "blue"],
             "ln_head_color": "colored",
             "ln_body_color": "none"
@@ -20,7 +20,7 @@
             "key": 5,
             "width": [42, 42, 42, 42, 42],
             "line_width": [0, 0, 0, 0, 0, 0],
-            "spacing": [6, 6, 6, 6],
+            "spacing": [8, 8, 8, 8],
             "colors": ["white", "white", "yellow", "blue", "blue"],
             "ln_head_color": "colored",
             "ln_body_color": "none"
