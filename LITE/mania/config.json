@@ -11,7 +11,7 @@
             "key": 4,
             "width": [42, 42, 42, 42],
             "line_width": [0, 0, 0, 0, 0],
-            "spacing": [8, 8, 8],
+            "spacing": [14, 14, 14],
             "colors": ["white", "white", "blue", "blue"],
             "ln_head_color": "colored",
             "ln_body_color": "none"
